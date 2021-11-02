@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: none;
+}
+a {
+    color:inherit;
+}
+.header{
+    background-color: #8000ff;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    margin: auto;
+    top: 0%;
+
+    
+}
+.menu{
+    display: block;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+h1{
+    float: left;
+    color: tomato;
+    padding :5px
+}
+ul{
+    float: right;
+    margin-bottom: 0;
+    
+}
+ul li {
+    display: inline-block;
+    padding: 14px 14px 14px 10px;
+    
+}
+ul li:hover{
+    border-bottom: 3px solid aqua;
+    box-sizing: border-box;
+}
+.menu:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.section{
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 87%;
+}
+.countainer{
+    margin-left: 10%;
+}
+.input-control{
+    display: inline-block; 
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #316a8b ;
+}
+.button{
+    padding: 5px 10px 5px 10px;
+    background-color: #8000ff;
+    color: black;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr{
+    height: 30px;
+}
+.table td{
+    padding: 5px 10px;
+}
+
+.button_edithapus{
+    padding: 6px 15px;
+    background-color: rgb(10, 168, 10);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+}
